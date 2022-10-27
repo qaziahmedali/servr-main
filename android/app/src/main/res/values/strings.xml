@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">servr</string>
+    <string name="color">#000000</string>
+    <string name="channel_id">servr</string>
+</resources>

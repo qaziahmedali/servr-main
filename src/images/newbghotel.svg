@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="384" height="123" viewBox="0 0 384 123">
+  <defs>
+    <filter id="Rectangle_18308" x="0" y="0" width="384" height="123" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#dee8f1" flood-opacity="0.388"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="newbghotel" transform="translate(-4379 -3390)">
+    <rect id="Rectangle_18309" data-name="Rectangle 18309" width="367" height="121" transform="translate(4388 3390)" fill="#fdfdfd"/>
+    <g transform="matrix(1, 0, 0, 1, 4379, 3390)" filter="url(#Rectangle_18308)">
+      <rect id="Rectangle_18308-2" data-name="Rectangle 18308" width="336" height="75" rx="37.5" transform="translate(24 24)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

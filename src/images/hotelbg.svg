@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="429" height="168" viewBox="0 0 429 168">
+  <defs>
+    <filter id="hotelbg" x="0" y="0" width="429" height="168" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15.5" result="blur"/>
+      <feFlood flood-color="#c1c8e4" flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#hotelbg)">
+    <rect id="hotelbg-2" data-name="hotelbg" width="336" height="75" rx="37.5" transform="translate(46.5 46.5)" fill="#fff"/>
+  </g>
+</svg>

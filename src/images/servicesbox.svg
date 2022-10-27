@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="274" height="237" viewBox="0 0 274 237">
+  <defs>
+    <filter id="Background" x="0" y="0" width="274" height="237" filterUnits="userSpaceOnUse">
+      <feOffset dy="19" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="19" result="blur"/>
+      <feFlood flood-color="#3a4c82" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="servicesbox" transform="translate(-138.5 -324.5)">
+    <g transform="matrix(1, 0, 0, 1, 138.5, 324.5)" filter="url(#Background)">
+      <rect id="Background-2" data-name="Background" width="159" height="122" rx="20" transform="translate(57.5 38.5)" fill="#fff" stroke="#e8e8e8" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
